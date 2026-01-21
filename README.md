@@ -1,71 +1,38 @@
 > ⚠️ **DISCLAIMER: PORTFOLIO PROJECT**
-> This repository contains proprietary code intended for demonstration purposes only.
-> It requires private environment variables (.env) and specific API keys to function.
-> **Copying or using this code for your own projects is strictly prohibited.**
-
-
-
+> This repository contains proprietary code intended exclusively for demonstration purposes.
+> It relies on private environment variables (.env) and specific API keys to function.
+> **Unauthorized copying or redistribution of this codebase is strictly prohibited.**
 
 # 📻 BAKU JUKEBOX V2.0
 
-
-
-
 > *Powered by Vue 3, Node.js, and Google Gemini AI*
-
-
 
 ![License](https://img.shields.io/badge/license-MIT-green) ![Vue](https://img.shields.io/badge/frontend-Vue_3-42b883) ![Node](https://img.shields.io/badge/backend-Node.js-339933) ![AI](https://img.shields.io/badge/AI-Gemini_Flash-blue)
 
-
-
 ## 📡 OVERVIEW
 
+**Baku Jukebox** is an experimental web radio platform featuring a retro-industrial user interface inspired by the CRT aesthetics of the 1980s and 90s (Teletext/BIOS motifs).
 
+The project is architected as a **Monorepo** comprising two primary modules:
 
-**Baku Jukebox** — это экспериментальное веб-радио с интерфейсом, стилизованным под ЭЛТ-мониторы 80-90х годов (Teletext/BIOS).
-
-
-
-Проект состоит из двух частей (Monorepo):
-
-1.  **Frontend (`public_html`)**: Vue 3 + Vite. Рендеринг интерфейса, визуализация аудио (Web Audio API), CRT-эффекты.
-
-2.  **Backend (`private`)**: Node.js + Socket.IO. Проксирование потока Shoutcast, управление чатом и генерация контента через AI (NANA BANANA).
-
-
+1.  **Frontend (`public_html`)**: Built with **Vue 3** and **Vite**. Handles reactive interface rendering, real-time audio signal processing (Web Audio API), and CSS/Canvas-based CRT visual simulation.
+2.  **Backend (`private`)**: Built with **Node.js** and **Socket.IO**. Manages Shoutcast stream proxying, real-time chat orchestration, and autonomous content generation via AI pipelines (NANA BANANA).
 
 ## 🛠 TECH STACK
 
-
-
 ### Client (`/public_html`)
 
-* **Framework:** Vue 3 (Composition API)
-
-* **Build:** Vite
-
-* **Styling:** Custom CSS Variables, CRT Overlay effects, VT323 Font
-
-* **Audio:** Web Audio API (Canvas Visualizers: Neural Network, City Drive, Matrix Rain)
-
-* **Comms:** Socket.IO Client
-
-
+* **Core Framework:** Vue 3 (Composition API)
+* **Build Toolchain:** Vite
+* **Styling & FX:** CSS Custom Properties, hardware-accelerated CRT overlay effects, VT323 Typography
+* **Audio Engine:** Web Audio API (Custom Canvas Visualizers: Neural Network, City Drive, Matrix Rain)
+* **Communication:** Socket.IO Client
 
 ### Server (`/private`)
 
 * **Runtime:** Node.js + Express
-
-* **Live Updates:** Socket.IO Server
-
-* **Radio Protocol:** Shoutcast V1/V2 Parser
-
-* **AI Core:**
-
-    * Google Gemini (Text generation)
-
-    * Nano Banana (Image generation)
-
-
-
+* **Real-time Infrastructure:** Socket.IO Server
+* **Streaming Protocol:** Shoutcast V1/V2 Parser / Proxy
+* **AI Integration:**
+    * **Google Gemini:** LLM-based text generation and context management.
+    * **Nano Banana:** Generative imagery pipeline.
