@@ -1,8 +1,15 @@
+> ⚠️ **DISCLAIMER: PORTFOLIO PROJECT**
+> This repository contains proprietary code intended for demonstration purposes only.
+> It requires private environment variables (.env) and specific API keys to function.
+> **Copying or using this code for your own projects is strictly prohibited.**
+
+
+
+
 # 📻 BAKU JUKEBOX V2.0
 
 
 
-> **Cyberpunk 2077 / Teletext Style Internet Radio Station**
 
 > *Powered by Vue 3, Node.js, and Google Gemini AI*
 
@@ -58,22 +65,7 @@
 
     * Google Gemini (Text generation)
 
-    * Pollinations.ai / Flux (Image generation)
+    * Nano Banana (Image generation)
 
 
 
----
-
-
-
-## 🚀 INSTALLATION & SETUP
-
-
-
-### 1. Clone Repository
-
-```bash
-
-git clone [https://github.com/Inaklarnet/baku-jukebox.git](https://github.com/Inaklarnet/baku-jukebox.git)
-
-cd baku-jukebox
