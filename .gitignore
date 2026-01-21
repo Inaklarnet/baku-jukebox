@@ -1,0 +1,22 @@
+# --- DEPENDENCIES (Не грузим тяжелые библиотеки) ---
+node_modules/
+*/node_modules/
+private/node_modules/
+public_html/node_modules/
+
+# --- SECRETS (Скрываем API ключи) ---
+.env
+.env.local
+*/.env
+private/.env
+
+# --- BUILD OUTPUTS ---
+dist/
+public_html/dist/
+build/
+
+# --- SYSTEM & LOGS ---
+.DS_Store
+thumbs.db
+*.log
+npm-debug.log*

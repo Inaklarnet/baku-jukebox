@@ -1,0 +1,58 @@
+{
+  "marqueeTop": {
+    "text": ">> BAKU JUKEBOX ON AIR >>> WELCOME TO THE FUTURE OF RADIO >>",
+    "speed": 30,
+    "active": true
+  },
+  "marqueeBottom": {
+    "text": "HISTORY: WAITING FOR DATA...",
+    "speed": 150,
+    "active": true
+  },
+  "nanaAutoAnnounce": true,
+  "theme": {
+    "global": {
+      "headerColor": "#ffff00",
+      "headerFont": "VT323"
+    },
+    "marquee": {
+      "topTextColor": "#00ffd5",
+      "topBgColor": "#000000",
+      "topFont": "VT323",
+      "bottomTextColor": "#00ffe1",
+      "bottomBgColor": "#000000",
+      "bottomFont": "VT323"
+    },
+    "chat": {
+      "userColor": "#02d4e3",
+      "msgColor": "#fdfcfc",
+      "font": "Orbitron"
+    },
+    "weather": {
+      "tempColor": "#ffff00",
+      "font": "Orbitron"
+    }
+  },
+  "news": {
+    "MUSIC": [
+      {
+        "id": 1769003396318,
+        "title": "",
+        "date": "14 JAN",
+        "image": null,
+        "text": "",
+        "layout": "left",
+        "headerBg": "#00ffff",
+        "accentColor": "#ff00ff"
+      }
+    ],
+    "BAKU": [],
+    "TECH": [],
+    "HOROSCOPE": []
+  },
+  "visualizer": {
+    "mode": "NEON",
+    "scene": "MATRIX"
+  },
+  "bannedUsers": []
+}
