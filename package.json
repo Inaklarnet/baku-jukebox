@@ -1,0 +1,11 @@
+{
+  "name": "baku-jukebox-monorepo",
+  "version": "2.0.0",
+  "scripts": {
+    "install:all": "cd private && npm install && cd ../public_html && npm install",
+    "dev": "concurrently \"cd private && node index.js\" \"cd public_html && npm run dev\" --names \"SERVER,RADIO\" --prefix-colors \"yellow,cyan\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
